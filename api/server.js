@@ -12,7 +12,7 @@ app.use(express.json());
 app.get("/", async (req, res) => {
     res.status(200).send({
         message:
-            "This is ChatGPT AI APP server url, please visit http://localhost:5173",
+            "This is ChatGPT AI APP server url, please visit https://chatgpt-ai-app-od21.onrender.com",
     });
 });
 
